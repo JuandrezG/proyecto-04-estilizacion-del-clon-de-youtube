@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina youtube practica html">
+
+    <link rel="icon" type="image/png" href="imgs/fav-icon.webp">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Youtube</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="nav">
+
+            <section class="containerLogoAndMenu">
+                <span class="material-symbols-outlined iconMenu">Menu</span>
+                <img class="logoYoutube" src="imgs/YoutubeLogo.webp" alt="LogoYoutube">
+            </section>
+
+            <section class="containerBuscador">
+                <form class="formBuscador" action="https://www.youtube.com/results" method="get"
+                    target="youtube-search">
+                    <input class="buscador" type="text" id="search" name="search_query">
+                    <button class="btnBuscador" type="submit"><span
+                            class="material-symbols-outlined">search</span></button>
+                </form>
+
+                <span class="material-symbols-outlined mic">mic</span>
+            </section>
+
+            <section class="containerIconsNav">
+                <span class="material-symbols-outlined">videocam</span>
+                <span class="material-symbols-outlined">notifications</span>
+                <span class="material-symbols-outlined">account_circle</span>
+            </section>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+
+        <section class="sectionVideo">
+            <iframe src="https://www.youtube.com/embed/3nYLTiY5skU?si=fZ2QCzwSSLDPWHni" frameborder="0"></iframe>
+            <div>
+                <h1>Curso COMPLETO de HTML GRATIS desde cero: SEO, semántica y más</h1>
+
+                <section class="infoCanal">
+
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+
+                    <div class="usuariosYSuscriptores">
+                        <h2> midulive </h2>
+                        <h3 class="subsCan">274k suscriptores</h3>
+                    </div>
+
+
+                    <button class="btnSuscripcion">Suscribirme</button>
+
+                    <div class="liked">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                            thumb_down
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                            share
+                        </span>
+                    </div>
+
+
+                </section>
+
+                <p class="descripcion">¡Sumérgete en el emocionante mundo de la creación web! Aprende HTML desde cero en
+                    este curso completo y totalmente gratuito. ¡Prepárate para construir sitios web asombrosos y dar
+                    rienda suelta a tu creatividad en línea! No te lo pierdas. </p>
+            </div>
+        </section>
+
+        <section class="sectionComentarios">
+            <div class="containerComentarios">
+                <h3>3 Comentarios</h3>
+                <article>
+                    <strong>@PepitoPerez</strong> <time datetime="2024-06-10">10 de junio de 2024</time>
+                    <p>Menos mal es gratis. </p>
+                    <div class="liked">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                            thumb_down
+                        </span>
+                </article>
+                <article>
+                    <strong>@Jhonny bravo</strong> <time datetime="2024-06-11">11 de junio de 2024</time>
+                    <p>Excelente video, muy recomendado </p>
+                    <div class="liked">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                            thumb_down
+                        </span>
+                        
+                </article>
+                <article>
+                    <strong>@It´s me</strong> <time datetime="2024-06-12">12 de junio de 2024</time>
+                    <p>En el siguiente video podrías hablar de Java?</p>
+                    <div class="liked">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                            thumb_down
+                        </span>
+                </article>
+
+            </div>
+        </section>
+
+        <aside class="sectionRecomendados">
+            <h3>Videos Recomendados</h3>
+            <section class="containerVideoRecomendado">
+                <img class="miniatura" src="imgs/miniatura1.webp" alt="Miniatura del video 1">
+                <h4>Buenas prácticas y consejos</h4>
+                
+                    <div class="detallesRecomen">
+                    <p> <small> El pelos </small> </p>
+                    <p> <small> 265 k visualizaciones </small> </p>
+                    </div>
+                
+            </section>
+            
+            <section class="containerVideoRecomendado">
+                <img class="miniatura" src="imgs/miniatura2.webp" alt="Miniatura del video 2">
+                <h4>Aprende sobre la web</h4>
+                
+                    <div class="detallesRecomen">
+                    <p> midulive </p>
+                    <p> <small> 102 k visualizaciones </small> </p>
+                    </div>
+                
+            </section>
+            
+            <section class="containerVideoRecomendado">
+                <img class="miniatura" src="imgs/miniatura3.webp" alt="Miniatura del video 3">
+                <h4>Aprende LINUX DESDE CERO</h4>
+
+                    <div class="detallesRecomen">
+                    <p>Profe-Saitama</p>
+                    <p> <small> 580 k visualizaciones </small> </p>
+                    </div>
+                
+            </section>
+            
+            <section class="containerVideoRecomendado">
+                <img class="miniatura" src="imgs/miniatura4.webp" alt="Miniatura del video 4">
+                <h4>Un poco de COD</h4>
+                
+                    <div class="detallesRecomen">
+                    <p>Thegreft</p>
+                    <p> <small> 1 M visualizaciones </small> </p>
+                    </div>
+                
+            </section>
+            <section class="containerVideoRecomendado">
+                <img class="miniatura" src="imgs/miniatura5.webp" alt="Miniatura del video 5">
+                <h4>Motos</h4>
+                
+                    <div class="detallesRecomen">
+                    <p>Profesor-Moto</p>
+                    <p> <small> 67 k visualizaciones </small> </p>
+                    </div>
+                
+            </section>
+        </aside>
+
+
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
